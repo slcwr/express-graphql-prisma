@@ -1,8 +1,6 @@
-// next.config.js
 // @ts-check
-/*eslint-disable*/
 /** @type {import('next').NextConfig} */
-module.exports = {
+const nextConfig = {
   eslint: {
     // ビルド時のESLintチェックを無効化
     ignoreDuringBuilds: true
@@ -11,3 +9,5 @@ module.exports = {
     styledComponents: true
   }
 };
+
+export default nextConfig;
