@@ -79,7 +79,7 @@ export default function Home() {
         <Input
           type="text"
           value={newTodo}
-          onChange={(e) => setNewTodo(e.target.value)}
+          onChange={(e: React.ChangeEvent<HTMLInputElement>) => setNewTodo(e.target.value)}
           placeholder="Add a new todo"
         />
         <Button type="submit">Add</Button>
