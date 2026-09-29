@@ -10,7 +10,6 @@ updates:
     groups:
       npm:
         patterns: ["*"]
-        update-types: [minor, patch]
       npm-security:
         applies-to: security-updates
         patterns: ["*"]
