@@ -8,8 +8,6 @@
     "type-check": "tsc --noEmit",
     "start": "tsx watch src/index.ts",
     "dev": "tsx watch src/index.ts",
-    "codegen": "graphql-codegen --require dotenv/config --config codegen.yml",
-    "codegen:watch": "graphql-codegen --watch",
     "prisma:init": "prisma init",
     "prisma:generate": "prisma generate",
     "prisma:migrate:dev": "prisma migrate dev",
@@ -45,9 +43,6 @@
   "devDependencies": {
     "@babel/core": "^7.29.6",
     "@babel/preset-env": "^7.25.8",
-    "@graphql-codegen/cli": "^5.0.3",
-    "@graphql-codegen/typescript": "^4.1.1",
-    "@graphql-codegen/typescript-resolvers": "^4.4.0",
     "@prisma/client": "^5.22.0",
     "@testcontainers/postgresql": "^12.0.4",
     "@testing-library/cypress": "^10.1.3",
